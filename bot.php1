@@ -6,8 +6,8 @@ Modified @ Farzain - zFz
 */
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
-$channelAccessToken = 'uRVta2gF9HsE0HRkWP7aLmCPd9qqNPJlrS3Zhnr2S3ViaG1sQzK + EOg + Lbgyzusmh3EadyAMNTN80Hz2QSZsewWYGVDpnsgKtB8OPuEJTDMcX3mVkP5Vb8ipon8j34eoMCq7ij2mTpbfMo9sRCJxZwdB04t89 / 1O / w1cDnyilFU ='; //sesuaikan 
-$channelSecret = '5f8a4482bc3293f66fcf26ba7ea36bfb';//sesuaikan
+$channelAccessToken = 'k/+WdpkSoZof/xgLClTWtxKAI/MqqJEwyB3Rjydp5jbAUMSVR/PELhxjbsJI9dwSbVLRX/f1gzhhDJ14cIIqBkD9XTrPhF8ecmdUqfw8p884zghRxnMVvZvbDP0ItLB11LLep1Ye/wmwT/uJXVNo1QdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = 'c41d451e0f42f191c338b27603879566';//sesuaikan
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId 	= $client->parseEvents()[0]['source']['userId'];
 $groupId 	= $client->parseEvents()[0]['source']['groupId'];
